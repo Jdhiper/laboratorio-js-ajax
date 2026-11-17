@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicios AJAX</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <header>
+    <h1>Ejercicios AJAX</h1>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="javascript.html">Ejercicios JavaScript</a>
+      <a href="ajax.html">Ejercicios AJAX</a>
+    </nav>
+  </header>
+
+  <main>
+    <form action="#" onsubmit="return false;">
+      URL: <input type="text" id="recurso" size="70">
+      <input type="button" id="enviar" value="Mostrar contenidos">
+    </form>
+
+    <h2 class="zona">Contenidos del archivo:</h2>
+    <div id="contenidos"></div>
+
+    <h2 class="zona">Estados de la petición:</h2>
+    <div id="estados"></div>
+
+    <h2 class="zona">Cabeceras HTTP de la respuesta del servidor:</h2>
+    <div id="cabeceras"></div>
+
+    <h2 class="zona">Código de estado:</h2>
+    <div id="codigo"></div>
+  </main>
+
+  <footer>Juan Diego Zambrano Guerrero – Desarrollo de Aplicaciones en Red</footer>
+
+  <script src="js/ajax.js"></script>
+</body>
+</html>

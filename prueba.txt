@@ -1,0 +1,3 @@
+Fichero de prueba para el laboratorio de AJAX.
+Este texto se descarga con XMLHttpRequest y se muestra en la zona "Contenidos del archivo".
+Desarrollo de Aplicaciones en Red - UNIR
